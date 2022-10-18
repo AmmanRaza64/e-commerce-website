@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+html{
+    scroll-behavior: smooth;
+}
+/* #nvbr{
+     background: radial-gradient(#fff,rgb(230, 97, 97));
+    
+} */
+/* logo  */
+.logo img{
+    margin-top: 2%;
+  width: 9%;
+ margin-left:-45%;
+ 
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f58374;
+    position: sticky ;
+    top: 0;
+    
+    height: 150px;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color: rgb(224, 68, 68);
+    box-shadow: 0 0 10px white;
+}
+
+
+
+/* slider */
+.carousel-inner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+  
+    margin-top: 5%;
+   
+
+  }
+  
+ .gallery{ 
+    margin-top: 10%;
+    margin-left: 10%;
+ }
+
+/* card */
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.9s;
+}
+.col-4 img{
+   width: 100%; 
+}
+.title{
+    
+    text-align: center;
+    margin: 0 auto 80px; 
+    position: relative;
+    line-height: 60px;
+    color: #555;
+    margin-top: 10%;
+}
+.title::after{
+    content: '';
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+h4{
+    color: #555;
+    font-weight: normal;
+}
+.col-4 p{
+    font-size: 15px;
+}
+.rating .fa{
+    color: #ff523b;
+}
+.col-4:hover{
+    transform: translateY(-10px);}
+/* about */
+#about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 5%;
+         
+}
+
+#pic{
+    display: flex;
+    float: left;
+    
+}
+#pic img{
+    width: 100;
+    height: 100;
+   
+    
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 5%;
+    
+
+}
+#intro h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.abut{
+font-size: large;
+
+}
+
+
+/* contact */
+.contact{
+    
+     font-style: italic;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-decoration: underline;
+        background-image: url(https://cdn.shopify.com/s/files/1/0720/5727/files/phone_1024x1024.jpg?v=1491155196)  ;
+    }
+
+    /* login */
+    .logi{
+text-align: center;
+font-style: italic;
+    }
